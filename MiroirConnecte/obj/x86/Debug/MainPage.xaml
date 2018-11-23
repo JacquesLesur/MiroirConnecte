@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="MiroirConnecte.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiroirConnecte"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF5D2C2C">
+        <TextBlock x:ConnectionId='1' x:Name="lHour"  HorizontalAlignment="Left" Margin="176,180,0,0" TextWrapping="Wrap" Text="7h30" VerticalAlignment="Top" FontSize="72" Foreground="White" FontFamily="Assets/Fonts/segoeuil.ttf#segoeuil"/>
+        <TextBlock x:ConnectionId='2' x:Name="lKaamelott" HorizontalAlignment="Left" Margin="420,135,0,0" TextWrapping="Wrap" Text="Vous êtes chevalier, je suis roi… Je vous demande de venir, vous venez et puis c'est tout !… Je vais pas non plus aller brûler un cierge sous prétexte que vous avez fait un tour de cheval !" VerticalAlignment="Top" Height="276" Width="928" SelectionHighlightColor="White" Foreground="White" FontSize="36" FontFamily="Assets/Fonts/segoeuil.ttf#segoeuil"/>
+        <Image x:ConnectionId='3' HorizontalAlignment="Left" Height="306" Margin="420,484,0,0" VerticalAlignment="Top" Width="492" Name="iWeather" Source="Assets/Images/Weather/brouillard.png"/>
+
+    </Grid>
+</Page>
+
